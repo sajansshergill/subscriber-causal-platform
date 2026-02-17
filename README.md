@@ -131,8 +131,62 @@ Optional extensions:
 ---
 
 ## Architecture
+```
+Synthetic Data Generator
+        ↓
+Data Warehouse (Postgres)
+        ↓
+Experiment Pipeline (Airflow)
+        ↓
+Causal Inference Engine
+        ↓
+Executive Dashboard (Streamlit)
+        ↓
+Business Recommendations
+```
+---
+
+## 📂 Project Structure
+
+<img width="410" height="950" alt="image" src="https://github.com/user-attachments/assets/73bf86b1-7f53-4532-9554-a5553aa380ed" />
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone repository
 
 ```
-Synthtic Data Genrator
+git clone https://github.com/yourname/subscriber-perks-platform
+cd subscriber-perks-platform
+```
+
+### 2. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 3. Generate synthetic dataset
+
+```
+python src/data_generator/generate_users.py
+```
+
+### 4. Run experiment engine
+
+```
+python src/experimentation/run_experiments.py
+```
+
+### 5. Launch dashboard
+
+```
+streamlit run src/dashboard/app.py
+```
+
+---
+
+
 
 

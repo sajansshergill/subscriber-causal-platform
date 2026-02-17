@@ -187,6 +187,37 @@ streamlit run src/dashboard/app.py
 
 ---
 
+## Example Output
 
+```
+Experiment Variant B vs Control
+Retention Lift: + 3.2%
+p-value: 0.012
+Statistically significant
 
+Estimated Annual Revenue Impact: +$18.4M
+Recommendation: Roll out globally
+```
 
+---
+
+## Statistical Methods Used
+
+- Frequentist A/B testing
+- Bayesian experimentation
+- Difference-in-Differences
+- Propensity Score Matching
+- Uplift modeling
+- Time-series causal impact
+- Forecasting & ROI modeling
+
+---
+
+## Business Impact Simulation
+The platform demonstrates how data science informs:
+
+- subscriber growth strategy
+- marketing optimization
+- park rollout decisions
+- long-term retention forecasting
+- executive decision-making
